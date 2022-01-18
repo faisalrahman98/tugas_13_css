@@ -1,0 +1,32 @@
+.container{
+    width: 1000px;
+    margin: 50px auto;
+}
+
+.satu, .dua{
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+}
+
+.satu{
+    background-color: green;
+    border: solid;
+    border-image-source: url(/Gambar/hearts.png);
+    border-image-outset: 20px;
+    border-image-width: 20px;
+    border-image-repeat: round;
+    border-image-slice: 20 22;
+    box-shadow: 30px 30px;
+}
+
+.dua{
+    border: solid;
+    border-image-source: url(/Gambar/border1.png);
+    border-image-outset: 15px;
+    border-image-width: 20px;
+    border-image-repeat: round;
+    border-image-slice: 33;
+    box-shadow: 30px 30px 30px -25px;
+    background-color: blue;
+}
